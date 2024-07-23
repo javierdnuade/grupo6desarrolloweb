@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENÚ</title>
+    <link rel="stylesheet" href="stylemateomarta.css">
+</head>
+<body>
+    <section>
+        <nav class="menu">
+            <ul>
+                <li><a href="vyfmateomarta.html">Jugar</a></li>
+                <li><a href="tutorialmateomarta.html">Tutorial</a></li>
+            </ul>
+            <div class="logo-container">
+                <img src="fotos/logo.png" alt="Cuidemos la salud">
+            </div>
+        </nav>
+    </section>
+
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.getElementById('menu-ham');
+            const menu = document.getElementById('buttons-header');
+        
+            menuToggle.addEventListener('click', function() {
+                menu.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
+
